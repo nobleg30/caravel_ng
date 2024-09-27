@@ -1,0 +1,6 @@
+git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
+sudo apt install git
+git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
+cd OpenROAD-flow-scripts/
+sudo ./setup.sh
+ ./build_openroad.sh --local
